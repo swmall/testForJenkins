@@ -1,0 +1,29 @@
+.DS_Store
+**/build/
+*.class
+# ide
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+# gradle
+.gradle/
+target/
+project/target/
+# logs
+**/logs/
+*.log
+# node
+**/node_modules/
+# codegen
+api/src/test/generatedContract/
+admin/src/test/generatedContract/
+## vue
+admin/src/main/resources/static/app.css
+admin/src/main/resources/static/app.js
+admin/src/main/resources/static/vendor.js
+admin/src/main/resources/static/static/
+admin/src/main/resources/templates/index.ftl
+# development
+application-local.properties
